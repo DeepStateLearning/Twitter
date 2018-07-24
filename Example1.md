@@ -10,3 +10,5 @@ Step 2. ("metrics.py") Create a similarity metric on the 600 popular retweets (r
 
 Note that 950 users is starting to strain the computations a bit - we're using a dense matrix computation at this point.  We're working on ways to to this more efficiently to expand to larger sets.  
 
+
+![Image](https://raw.githubusercontent.com/DeepStateLearning/Twitter/master/RBwithRIcci1500.png)
