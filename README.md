@@ -40,7 +40,7 @@ In the third example, we took the accounts that used hashtag #amazonstrike.   Th
 Finally, I grabbed a number of users with location near Eugene, OR.    The picture shows that clusters appear.
 ![Image of Eugene](https://github.com/DeepStateLearning/Twitter/blob/master/eugene.png)
 Here's another picture of same data: Multidimensional scaling is somewhat random, 
-![Image of Eugene](https://github.com/DeepStateLearning/Twitter/blob/master/#ugene2.png)
+![Image of Eugene](https://github.com/DeepStateLearning/Twitter/blob/master/Eugene2.png)
 
 
 Ricci flow seems to do a poor job, as it lumps the main clusters together. 
