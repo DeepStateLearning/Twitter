@@ -9,7 +9,7 @@ The first attempt is the following:
 5)Use multidimensional scaling to look at the distance metric in 2d
 6)Use Ricci flow to further cluster the data (this is something we came up with based on some "pure math" considerations and we are playing with, just to see if it adds any value.) 
 
-As we can see, this can distinguish groups of users quite well: In the first example there's a very clear distinction between pro-Trump and anti-Trump (of course these were selected) 
+As we can see, this can distinguish groups of users quite well: In the first example there's a very clear distinction between pro-Trump and anti-Trump (these were selected by criteria gauranteeing they are politicized accounts. ) 
 
 More about the examples
  
