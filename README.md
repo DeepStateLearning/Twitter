@@ -1,5 +1,5 @@
 # Twitter
-I'm uisng this space to play around with some attempt to put metrics on sets of twitter accounts, and also to try out some clustering techniques. 
+I'm using this space to play around with some attempt to put metrics on sets of twitter accounts, and also to try out some clustering techniques.  I'm a mathematician by day - I'm not posting code like a "real developer"  as I'm just sort of throwing up a bunch of code samples up in case anyone wants to see how I'm doing it.  
 
 The first attempt is the following:
 1)Take a group of users selected according to some criterion, 
@@ -9,11 +9,11 @@ The first attempt is the following:
 5)Use multidimensional scaling to look at the distance metric in 2d
 6)Use Ricci flow to further cluster the data (this is something we came up with based on some "pure math" considerations and we are playing with, just to see if it adds any value.) 
 
-As we can see, this can distinguish groups of users quite well: In the first example there's a very clear distinction between pro-Trump and anti-Trump (these were selected by criteria gauranteeing they are politicized accounts. ) 
+As we can see, this can distinguish groups of users quite well: In the first example there's a very clear distinction between pro-Trump and anti-Trump (these were selected by criteria guaranteeing they are politicized accounts, so this isn't so surprising.) 
 
 More about the examples
  
-In the first example, we start with a set of political accounts obtained from Steve Kramer:  https://data.world/drstevekramer/twitter-bot-detection-for-walkaway-campaign, we see the above process splits the space quite nicely.  MOre details in the page "Example1.md". 
+In the first example, we start with a set of political accounts obtained from Steve Kramer:  https://data.world/drstevekramer/twitter-bot-detection-for-walkaway-campaign, we see the above process splits the space quite nicely.  More details in the page "Example1.md". 
 
 
 The following is the 2d picture which are colored by KMeans
@@ -51,3 +51,6 @@ KMeans is, uh, Kmeans.
 ![Image of Eugene](https://github.com/DeepStateLearning/Twitter/blob/master/EugeneKmeans.png) 
 
 The metric, with cluster labels is in "view_metric_eugene.csv"
+
+
+
